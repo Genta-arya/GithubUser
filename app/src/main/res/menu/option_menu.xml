@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:menuCategory="container">
+
+        <item
+            android:id="@+id/cari"
+            android:title="@string/menu_1" />
+        <item
+            android:id="@+id/favorite_user"
+            android:title="@string/favorite"
+            android:icon="@drawable/ic_baseline_favorite_true"
+            app:showAsAction="always|collapseActionView"/>
+        <item
+            android:id="@+id/theme_dark"
+            android:orderInCategory="100"
+            android:title="@string/dark_mode"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/theme_light"
+            android:orderInCategory="100"
+            android:title="@string/light_mode"
+            app:showAsAction="never" />
+    </group>
+</menu>
